@@ -1,0 +1,47 @@
+
+
+.player-container {
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.station-container {
+    margin-top: 20px;
+}
+
+.station-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #3E64FF; /* Color de borde azul */
+}
+
+.mode-toggle {
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    color: #3E64FF; /* Color del texto */
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.station-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ff2727; /* Color de borde azul */
+    animation: rotate 9s linear infinite; /* Animación de rotación */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
